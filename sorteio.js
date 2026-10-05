@@ -1,0 +1,47 @@
+var aluno=[
+"Alisson Winter Spatin",
+"Fabricio Oliveira (MCT)",
+"Henrique Rodrigues (MCT)",
+"Mateus Lopes de Rezende (MCT)",
+"Rafael Lourenço Luz (MCT)",
+"Rogério Teixeira (bsi)",
+"AARON STIEBLER C. SILVA",
+"DÉBORA LESSA DE FARIA",
+"IAGO NORMANDIA",
+"JEFFERSON SILVA",
+"LEONARDO DOS SANTOS CAMPOS",
+"LUCAS DE SOUZA ALMADA",
+"LUCAS FILGUEIRAS SILVA",
+"LUCAS PEREIRA SOARES",
+"PATRICK HERNANI DA COSTA SILVA",
+"PENELOPE MARQUES VERDI",
+"RAFAEL OLIVEIRA FRANCO",
+"ROSANA CRISTINA DO NASCIMENTO",
+"CAIO MARQUES",
+"CARLOS EDUARDO GOMES DA SILVA",
+"GABRIEL DA COSTA MEDEIROS",
+"GEOVANE BATISTA VITAL",
+"IGOR BAIO SOARES",
+"JAFAR MOHAMMED UNTAR",
+"LAVINIA BEGHINI DE CASTRO",
+"LUCAS GAMA SILVA FREITAS",
+"PEDRO HENRIQUE F. DAMIÃO",
+"PEDRO HENRIQUE SOUSA FERREIRA",
+"RAPHAEL DE OLIVEIRA TAVARES",
+"VITOR HUGO DE ALMEIDA MARCELINO",
+"WESLEI ROCHA DE SOUZA"]
+
+var nrAlunos=32;
+var jaSorteado=[];
+
+function inicia(){
+	for(var i=0;i<nrAlunos;i++) jaSorteado[i]=false;
+}
+
+function sorteia(){
+	var s = Math.floor((Math.random() * nrAlunos) );
+	alert(s);
+	
+}
+
+
